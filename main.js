@@ -23,7 +23,7 @@ let app = new Vue ({
     prev() {
       this.counter--;
       if (this.counter < 0) {
-        this.counter = (this.images.lenght -1);
+        this.counter = (this.images.length -1);
       }
     }
   }
